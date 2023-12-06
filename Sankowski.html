@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Praca</title>
+    <link rel="stylesheet" href="folder1/style.css">
+</head>
+
+<body>
+    <form id="formularz">
+        <label for="imie">Imie</label>
+        <input type="text" id="imie" name="imie"><br>
+
+        <label for="nazwisko">Nazwisko</label>
+        <input type="text" id="nazwisko" name="nazwisko"><br>
+
+        <label for="data">Data (rrrr-mm-dd):</label>
+        <input type="text" id="data" name="data" placeholder="rrrr-mm-dd"><br>
+
+        <label for="trzezwy">Czy bedziesz trzezwy:</label>
+        <select id="trzezwy" name="trzezwy" required="">
+            <option value="" selected="selected">Wybierz Opcje</option>
+            <option value="tak">Tak</option>
+            <option value="nie">Nie</option>
+        </select><br>
+
+        <label for="a1">Wybor miejsca w autokarze:</label>
+        <select id="siedzenie" name="siedzenie" required="">
+            <option value="" selected="selected"> Number siedzenia</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select>
+
+        <br><label for="a2" id="zgoda1">Zgadzam sie na przetwarzanie danych osobowych</label>
+        <input type="checkbox" id="zgoda" name="zgoda"><br>
+
+        <input type="reset" id="reset1" value="Czysc">
+
+        <input type="submit" id="submit1" value="wyslij">
+    </form>
+    <section class="lewy">
+        <div class="container">
+            <img src="folder1/OIP.jfif">
+        </div>
+    </section>
+
+    <footer>
+        <p>Autor: Sankowski</p>
+    </footer> 
+</body></html>
